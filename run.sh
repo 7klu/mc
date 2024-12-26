@@ -22,24 +22,6 @@ logerror() {
     echo -e "${RED}[ERROR] $1${RESET}"
 }
 
-echo -e "${CYAN}
-o                     __...__     *               
-              *   .--'    __.=-.             o
-     |          ./     .-'     
-    -O-        /      /   
-     |        /    '\"/               *
-             |     (@)     
-            |        \                         
-            |         \ *          |   
-             |  .   /  `                 -O-
-              \  \`~~\                     |
-         o     \     \            *         
-                `\    `-.__           .  
-    .             `--._    `--'   
-                       `---~~`                *
-            *                   o
-${RESET}"
-
 loginfo "Starting setup..."
 
 loginfo "Making install.sh executable..."
