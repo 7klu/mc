@@ -34,7 +34,7 @@ sudo apt update -y
 sudo apt install openjdk-17-jdk openjdk-21-jdk wget curl -y || { logerror "Failed to install dependencies"; exit 1; }
 
 loginfo "Creating directory structure for Minecraft server..."
-mkdir -p ~/luMC
+mkdir ~/luMC
 cd ~/luMC || { logerror "Failed to change directory to ~/luMC"; exit 1; }
 
 loginfo "Downloading BuildTools for Spigot..."
