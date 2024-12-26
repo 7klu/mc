@@ -31,7 +31,7 @@ fi
 
 loginfo "Updating and installing necessary dependencies..."
 sudo apt update -y
-sudo apt install openjdk-17-jdk wget curl -y || { logerror "Failed to install dependencies"; exit 1; }
+sudo apt install openjdk-17-jdk openjdk-21-jdk wget curl -y || { logerror "Failed to install dependencies"; exit 1; }
 
 loginfo "Creating directory structure for Minecraft server..."
 mkdir -p ~/luMC
